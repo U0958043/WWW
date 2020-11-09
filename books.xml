@@ -2,17 +2,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet href="mycss.css" type="text/css"?>
 <books>
-<heading>文觀書房</heading>
+<heading>文創書房</heading>
 <book>
-<title>日本之旅</title>
-<author>鍾雯聿</author>
-<publisher>聯大出版社</publisher>
-<price>$500</price>
+<title>言葉之庭</title>
+<author>新海誠</author>
+
+
 </book>創
 <book>
-<title>台灣之旅</title>
-<author>鍾雯聿</author>
-<publisher>聯大出版社</publisher>
-<price>$450</price>
+<title>隨時說再見,隨時再相見</title>
+<author>李維文</author>
+
+
 </book>
 </books>
