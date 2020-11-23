@@ -1,94 +1,51 @@
 <!DOCTYPE html>
-<html lang="tw">
-     <head>
-        <meta charset="utf-8">
-        <title>林亞婷的文創空間</title>
-        <meta name="description"content="聯大文創" >
-        <link rel="stylesheet"href='style.css'>
-    </head>
-     <body>
- <header>
-<h1>林亞婷的文創空間</h1>
-<nav class='navigation'>
-<ul>
-<li><a href='#frofile'>自我介紹</a></li>
-<li><a href='#concert'>個人作品</a></li>
-<li><a href='book.htm'target="_blank">我收集的圖書</a></li>
-<li><a href='project.htm'target="_blank">歷年專案計畫</a></li>
-<li><a href='form.htm'target="_blank">表單設計</a></li>
-<li><a href='https://ccdm.nuu.edu.tw/'target="_blank">文創系</a></li>
-<li><a href='https://www.nuu.edu.tw/'target="_blank">聯合大學</a></li>
-</ul>
-</nav>
-</header>
-<main>
-        <div class="mainvisual">
-        <img src="011.jpg" alt='主視覺圖片'width='740'height='340'>
-        </div>
-
-        <article id='profile'>
-        <div class='inner'>
-       <h2>自我介紹</h2>
-       <p>大家好!我叫林亞婷,平時喜歡聽音樂,看電影,看書,閒暇時間會做手工藝,希望能成為一位多才多藝的人!</p>
-        </div>
-        </article>
-       
-         <article id='concert'>
-          <h2>個人作品</h2>
-        <p>簡歷/作品</p>
-         <section>
-         <h3>個人簡歷</h3>
-          <table>
-                         <tr><th>現職</th><td>聯合大學</td></tr>
-                         <tr><th>學歷</th><td>北門高中</td></tr>
-                         <tr><th>興趣</th><td>手工藝</td></tr>
-                         <tr><th>愛好</th><td>做手帳.蒐集迪士尼周邊</td></tr>
-          </table>
-           </section>
-
-	 <section> 
-	<h3>作品</h3>
-                <section class="performer">
-		<img src="01.jpg" width='150'height='150'>
-		<h3>橡皮章</h3>
-		<p>美少女戰士</p> 
-		</section>
-<section class="performer">
-		<img src="02.jpg" width='150'height='150'>
-		<h3>熱縮片</h3>
-		<p>鈴蘭別針</p> 
-		</section>
-<section class="performer">
-		<img src="03.jpg" width='150'height='150'>
-		<h3>口金包</h3>
-		<p>神奈川沖浪裏</p> 
-		</section>
-<section class="performer">
-		<img src="04.jpg" width='150'height='150'>
-		<h3>羊毛氈</h3>
-		<p>甜甜圈小貓</p> 
-		</section>
-<section>
-<h3>特殊經歷</h3>
-<ol>
-<li>榕園文藝營手工藝工作坊一日講師
-<li>京都奈口金包創業訪談
-<li>療育紙雕盆栽工作坊
-<li>鹽分地帶文學研習
-
-</ol>
-</section>
-
-	
-
- </article>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<style type="text/css">
+		p{
+			color:red;
+			margin:5px;
+			cursor:pointer;
+		}
+        p:hover{
+        	background: yellow;
+        }
+        .zenbo{
+        	position: fixed;
+        	top: 0;
+        	left: 0;
+        	width: 100%;
+        	height: 100%;
+        	z-index: 10;
+        	background: rgba(0,0,0,0.5);
+        	display: flex;
+        	justify-content: center;
+        	align-items: center;
+        }
 
 
 
-</main>
-<footer>
-<p class='pagtop'><a href='#top'>回到頁首</a></p>
-<p class='copyright'><small>&copy;coopyRight2020文創系</small></p>
-</footer>
-   </body>
+	</style>
+</head>
+<body>
+	<p>產品介紹</p>
+	<h1>智慧型客語機器人</h1>
+	<div class="zenbo">
+		<img src="1.JPG">
+	</div>
+
+	<script type="text/javascript">
+		$('p').click(function(){
+			$('.zenbo').slideToggle();
+		});
+			<script type="text/javascript">
+		$('img').click(function(){
+			$('.zenbo').slideToggle();
+		});
+	</script>
+</body>
 </html>
